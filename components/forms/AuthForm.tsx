@@ -12,13 +12,6 @@ import { Input } from '@/components/ui/input'
 import ROUTES from '@/constants/route'
 import { toast } from 'sonner'
 
-type ActionResponse = {
-    success: boolean
-    status?: number
-    error?: {
-        message?: string
-    }
-}
 
 interface AuthFormProps {
     schema: ZodTypeAny
